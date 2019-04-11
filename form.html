@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>File Upload</title>
+    <style>
+    input{
+        padding:2%;
+        font-size:20px;
+    }
+    
+    </style>
+</head>
+<body>
+    
+    <form action="/upload" method="post" enctype="multipart/form-data">
+    
+    <input type="text" name="filename" placeholder="skriv in nytt filnamn" id=""><br>
+    <input type="file" name="file" id="">
+    <input type="submit" value="Upload file">
+    
+    
+    </form>
+
+</body>
+</html>
